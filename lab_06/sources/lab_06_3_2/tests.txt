@@ -1,0 +1,31 @@
+Tests for lab_06_3_2 problem
+
+Test format:
+Input
+---
+Output
+
+empty string
+hey cool sup
+---
+INPUT_ERROR
+
+THIS STRING IS 257 CHARACTERS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+hey ya
+---
+INPUT_ERROR
+
+morethansixteencharactersword get it
+hey bruh
+---
+INPUT_ERROR
+
+got it
+cool got
+---
+it cool
+
+hey;ya-bra
+hey-goget.em
+---
+ya bra goget em

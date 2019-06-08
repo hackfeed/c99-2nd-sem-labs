@@ -1,0 +1,56 @@
+Tests for lab_03_3 problem
+
+Test format:
+Input
+---
+Output
+
+binary.bin contains:
+1 9 8 -1 2 3 1 2 2 1
+
+p binary.bin
+---
+1 9 8 -1 2 3 1 2 2 1
+
+s binary.bin
+---
+-1 1 1 1 2 2 2 3 8 9
+
+binary.bin is empty
+
+p binary.bin
+---
+EMPTY_FILE
+
+s binary.bin
+---
+EMPTY_FILE
+
+binary.bin isn't exist
+
+p binary.bin
+---
+FILE_NOT_EXIST_ERROR
+
+s binary.bin
+---
+FILE_NOT_EXIST_ERROR
+
+binary.bin contains:
+1 9 8 -1.5 2 3 ad 2 2 a
+
+p binary.bin
+---
+WRONG_ARG
+
+s binary.bin
+---
+WRONG_ARG
+
+p
+---
+TOO_FEW_CL_ARGS_ERROR
+
+s
+---
+TOO_FEW_CL_ARGS_ERROR

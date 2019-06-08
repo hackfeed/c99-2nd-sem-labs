@@ -1,0 +1,90 @@
+Tests for lab_05_3_3 problem
+
+Test format:
+Input
+---
+Output
+
+binary.bin:
+Sokolov Efim 5 5 5 5 
+Romanov Alexey 3 1 2 6
+Alexandrovich George 1 1 1 3
+Alexandrovich Andrew 1 1 1 3
+Romanov Aawram 2 5 2 3
+Kononenko Sergey 1 1 1 1
+
+./main sb binary.bin
+---
+Alexandrovich
+Andrew
+1 1 1 3 
+
+Alexandrovich
+George
+1 1 1 3 
+
+Kononenko
+Sergey
+1 1 1 1 
+
+Romanov
+Aawram
+2 5 2 3 
+
+Romanov
+Alexey
+3 1 2 6 
+
+Sokolov
+Efim
+5 5 5 5 
+
+./main db binary.bin
+---
+Sokolov
+Efim
+5 5 5 5 
+
+Romanov
+Alexey
+3 1 2 6 
+
+Romanov
+Aawram
+2 5 2 3 
+
+./main fb binary.bin binarynew.bin Kono
+---
+Kononenko
+Sergey
+1 1 1 1 
+
+./main fb binary.bin binarynew.bin R
+---
+Romanov
+Alexey
+3 1 2 6 
+
+Romanov
+Aawram
+2 5 2 3 
+
+./main fb binary.bin binarynew.bin Aaw
+---
+NO_MATCHES_ERROR
+
+./main ab binary.bin binarynew.bin R
+---
+WRONG_CL_ARGUMENTS_ERROR
+
+empty binary.bin
+---
+EMPTY_FILE_ERROR
+
+incorrect binary.bin
+---
+FILE_ERROR
+
+not existing bin file
+---
+FILE_NOT_EXIST_ERROR

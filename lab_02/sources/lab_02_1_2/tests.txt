@@ -1,0 +1,8 @@
+0 0 0 1 1 0
+0.500000
+
+1 2 3 4 5 6
+Triangle is not exist
+
+1 2 a b 2 3
+Input error

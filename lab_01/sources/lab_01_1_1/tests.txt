@@ -1,0 +1,14 @@
+Input a, b, alpha: 2 4 60
+Total square of shape: S = 5.19615
+
+Input a, b, alpha: 5 2 30
+Total square of shape: S = 3.03109
+
+Input a, b, alpha: 1 10 45
+Total square of shape: S = 24.75000
+
+Input a, b, alpha: 4 2 40
+Total square of shape: S = 2.51730
+
+Input a, b, alpha: 5 20 75
+Total square of shape: S = 349.87976

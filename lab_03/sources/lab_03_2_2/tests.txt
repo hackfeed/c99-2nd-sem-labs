@@ -1,0 +1,26 @@
+Tests for lab_03_2_2 problem
+
+Test format:
+Input
+---
+Output
+
+empty file
+---
+EMPTY_FILE
+
+cant't open file
+---
+FILE_NOT_EXIST_ERROR
+
+1 a
+---
+WRONG_ARG
+
+1 2 3 4 5 6 7
+---
+4
+
+1
+---
+0

@@ -1,0 +1,19 @@
+Input flat number: 1
+Entrance number: 1
+Floor number: 1
+
+Input flat number: 4
+Entrance number: 1
+Floor number: 1
+
+Input flat number: 5
+Entrance number: 1
+Floor number: 2
+
+Input flat number: 37
+Entrance number: 2
+Floor number: 1
+
+Input flat number: 71
+Entrance number: 2
+Floor number: 9

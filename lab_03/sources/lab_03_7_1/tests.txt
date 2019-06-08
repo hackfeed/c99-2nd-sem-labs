@@ -1,0 +1,38 @@
+Tests for lab_03_7_1 problem
+
+Test format:
+Input
+---
+Output
+
+empty file
+---
+EMPTY_FILE
+
+cant't open file
+---
+FILE_ERROR
+
+1 2
+---
+CANT_FIND_LOCAL_MAXS_ERROR
+
+1
+---
+WRONG_ARG
+
+1 a
+---
+WRONG_ARG
+
+1 2 3
+---
+0
+
+2 2 2 2 
+---
+0
+
+1 2 1
+---
+1
