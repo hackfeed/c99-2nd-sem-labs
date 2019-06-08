@@ -1,0 +1,17 @@
+Tests for rk_01_02
+
+Tests format:
+Input
+Output
+
+1234
+4321
+
+-341
+143
+
+a
+INPUT_ERR
+
+-a
+INPUT_ERR
